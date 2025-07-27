@@ -1,2 +1,7 @@
 *~
 *.bak
+*.pyc
+__pycache__/
+*.json
+*.log
+sspamm3.sock

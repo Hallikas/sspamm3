@@ -1,0 +1,21 @@
+[main]
+savedir: /app
+varext: .json
+debug: 1
+pidfile: /var/run/sspamm3.pid
+
+[domains]
+default: accept, date, headers, ipfromto
+hallikas.com: accept, date, block, headers, ipfromto, wordscan
+
+[ipfromto]
+(?#delete)^[a-zA-Z0-9._%%+-]+@.+\.icu:.*$
+(?#delete)^[a-zA-Z0-9._%%+-]+@.+\.xyz:.*$
+
+[headers]
+(?#delete)^From:.*<.*\.xyz>$
+(?#delete)^Subject:.*(free|win|urgent)\.*
+
+[wordscan]
+50: (?#delete)\b(pills?|viagra|cialis)\b
+10: (?#delete).*(signup|login|verify).*

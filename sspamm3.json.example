@@ -1,0 +1,116 @@
+{
+  "tests": {
+    "ipfromto": 384,
+    "headers": 1122,
+    "connect": 86,
+    "date": 1,
+    "helo": 1,
+    "subject": 50
+  },
+  "smtpcmds": [
+    "connect",
+    "hello",
+    "envfrom",
+    "envrcpt",
+    "header",
+    "eoh",
+    "body",
+    "eom",
+    "close"
+  ],
+  "tmpfile": "00000407.tmp",
+  "header": {
+    "Message-ID": "",
+    "From": "\"Orgasm Trigger\" <newsletter@investorvary.today>",
+    "Subject": "Weird 5-second bedroom trick drives women WILD",
+    "Authentication-Results": "gamehost.fi; dkim=pass (2048-bit key; unprotected) header.d=investorvary.today header.i=newsletter@investorvary.today header.a=rsa-sha1 header.s=k1 header.b=S8smyJYc; dkim-atps=neutral",
+    "To": "",
+    "DKIM-Signature": "...",
+    "Date": "Wed, 30 Apr 2025 15:45:24 -0500",
+    "Reply-To": "\"Orgasm Trigger\" <newsletter@investorvary.today>",
+    "DomainKey-Signature": "...",
+    "Content-Type": "multipart/alternative; boundary=\"b090cddb5dc5bcd89adb1390c93707f9\"",
+    "Mime-Version": "1.0"
+  },
+  "rawsubject": "Weird 5-second bedroom trick drives women WILD",
+  "result": {
+    "ipfromto": [
+      "delete",
+      ".investorvary.today:semi@hallikas.com"
+    ],
+    "headers": null,
+    "connect": null,
+    "date": null,
+    "helo": null,
+    "subject": null
+  },
+  "id": 407,
+  "size": 5337,
+  "received": {
+    "1": {
+      "ip": "107.173.104.110",
+      "helo": "oboe.investorvary.today",
+      "dns": "107-173-104-110-host.colocrossing.com"
+    }
+  },
+  "from": [
+    "38788-60061-129077-6805-semi=hallikas.com@mail.investorvary.today"
+  ],
+  "ipfromto": {
+    "semi@hallikas.com": [
+      "107-173-104-110-host.colocrossing.com:38788-60061-129077-6805-semi=hallikas.com@mail.investorvary.today"
+    ]
+  },
+  "raw": "...",
+  "type": "",
+  "charset": [],
+  "timer": {
+    "smtp_envrcpt": "0.0001",
+    "smtp_hello": "0.0001",
+    "headers": "0.0101",
+    "smtp_header": "0.0004",
+    "timepass": "4.1961",
+    "ipfromto": "0.0175",
+    "date": "0.0009",
+    "connect": "0.0025",
+    "smtp_eom": "0.0503",
+    "smtp_envfrom": "0.0008",
+    "is_filtered": "0.0003",
+    "helo": "0.0005",
+    "subject": "0.0113",
+    "smtp_eoh": "0.0000",
+    "smtp_body": "0.0001",
+    "smtp_connect": "0.0057"
+  },
+  "todomain": "hallikas.com",
+  "note": null,
+  "to": [
+    "semi@hallikas.com"
+  ],
+  "checksum": "a8bc233b1dce4113fcc9cb2cb88f40521315eddf",
+  "action": [
+    "delete",
+    "pass"
+  ],
+  "mime": {
+    "11": [
+      "text",
+      "plain",
+      "",
+      null,
+      "This email must be viewed in HTML mode."
+    ],
+    "12": [
+      "text",
+      "html",
+      "",
+      null,
+      "..."
+    ]
+  },
+  "subject": "Weird 5-second bedroom trick drives women WILD",
+  "my": {
+    "ip": null,
+    "dns": null
+  }
+}
